@@ -12,10 +12,9 @@ class RootIndex extends React.Component {
 
     return (
       <div style={{ background: '#fff' }}>
-        <Helmet title={siteTitle} />
         <Hero data={author.node} />
         <div className="wrapper">
-          <h2 className="section-headline">Recent articles</h2>
+          <h2 className="section-headline">IDST!: Recent articles</h2>
           <ul className="article-list">
             {posts.map(({ node }) => {
               return (
